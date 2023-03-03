@@ -1,176 +1,315 @@
 <!DOCTYPE html>
 <html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- <meta name="google-site-verification" content="o3mKjTzOpyekbS5TcKqhFDxLWKwEZmCgz-aa5Ap75kg" /> -->
+		<title>Phenix Oleo</title>
+		<!--  <meta name="description" content="Somos Procnost, ofrecemos herramientas de calidad, buscamos acompañar a nuestros
+  clientes en la construcción de sus proyectos."> -->
+		<!-- <link rel="icon" type="image/x-icon" href="/img/PROCNOSTfavi.png"> -->
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/navbar.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/contact.css" />
+		<link rel="stylesheet" href="css/portada.css" />
+		<link rel="stylesheet" href="css/imgfondo.css" />
+		<link rel="stylesheet" href="css/nosotros.css" />
+		<script defer src="js/app.js"></script>
+		<script defer src="js/carrousel.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="google-site-verification" content="o3mKjTzOpyekbS5TcKqhFDxLWKwEZmCgz-aa5Ap75kg" />
-  <title>Procnost</title>
-  <meta name="description" content="Somos Procnost, ofrecemos herramientas de calidad, buscamos acompañar a nuestros
-  clientes en la construcción de sus proyectos.">
-  <link rel="icon" type="image/x-icon" href="/img/PROCNOSTfavi.png">
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/navbar.css" />
-  <!-- <link rel="stylesheet" href="css/profile.css" /> -->
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/contact.css">
-  <!-- <link rel="stylesheet" href="css/grid.css"> -->
-  <link rel="stylesheet" href="css/carrousel.css">
-  <link rel="stylesheet" href="css/portada.css">
-  <link rel="stylesheet" href="css/imgfondo.css">
-  <link rel="stylesheet" href="css/galeria.css">
-  <script defer src="js/app.js"></script>
-  <script defer src="js/carrousel.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <!-- <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script> -->
-</head>
+	<body>
+		<header class="topheader">
+			<nav class="topnav">
+				<a href="#" class="logo">
+					<img height="30" src="img/logoConFondoNegro.png" alt="logo" />
+					<div class="logotype"></div>
+				</a>
+				<button class="open-menu" aria-label="Abrir menú">
+					<img height="30px" src="img/hamburger-icon.svg" alt="abrir menú" />
+				</button>
+				<ul class="menu">
+					<button class="close-menu" aria-label="Cerrar menú">
+						<img src="img/close-icon.svg" alt="cerrar menú" />
+					</button>
+					<li>
+						<a href="#portada" id="logomenubtn"
+							><img height="70" src="img/logoSinFondo.png" alt="logo"
+						/></a>
+					</li>
+					<li><a href="#nosotros" id="nosotrosbtn">Nosotros</a></li>
+					<li><a href="#servicios" id="serviciosbtn">Servicios</a></li>
+					<li><a href="#productos" id="productosbtn">Productos</a></li>
+					<li><a href="#contact" id="contactbtn">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
 
-<body>
-  <header class="topheader">
-    <nav class="topnav">
-      <a href="#" class="logo">
-        <div class="logotype">
-          <img class="logonav" src="img/PROCNOST.png" alt="logo">
-        </div>
-      </a>
-      <button class="open-menu" aria-label="Abrir menú">
-        <img height="30px" src="img/hamburger-icon.svg" alt="abrir menú" />
-      </button>
-      <ul class="menu">
-        <button class="close-menu" aria-label="Cerrar menú">
-          <img src="img/close-icon.svg" alt="cerrar menú" />
-        </button>
-        <!-- <li><a href="#productos" id="productosbtn">Productos</a></li> -->
-        <li><a href="#contact" id="contactbtn">
-            <img height="30px" src="img/contact.png" alt="abrir menú" style="margin-top: 20px;" />
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+		<section id="portada" class="portada imgfondo1">
+			<div class="slide-contenedor">
+				<div class="imgcontainer">
+					<!-- <img src="img/logoSinFondo.png" alt="ave fenix" class="logoPortada" /> -->
+					<h1 class="portadatitulo">PHENIX OLEO</h1>
+					<h2 class="portadatituloSubtitulo">
+						Servicios Agroindustriales <br />
+						Potenciando la cadena de valor del campo argentino
+					</h2>
+				</div>
+			</div>
+		</section>
 
-  <section id="portada" class="portada">
-    <div class="slide-contenedor">
-      <!-- <div class="direcciones">
-        <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
-        <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
-      </div> -->
-      <div class="barras">
-        <span class="barra active" onclick="posicionSlide(1)"></span>
-        <span class="barra" onclick="posicionSlide(2)"></span>
-        <span class="barra" onclick="posicionSlide(3)"></span>
-        <span class="barra" onclick="posicionSlide(4)"></span>
-      </div>
-      <div class="imgcontainer">
-        <img class="logoportada" src="img/PROCNOST.png" alt="logo" />
-        <img class="logoportadasub" src="img/StrengthnQuality.png" alt="logo" />
+		<a name="nosotros"></a>
+		<section class="nosotros">
+			<h2 class="nostitle">Nosotros</h2>
+			<p>
+				Con la idea de poder aportar valor en toda la cadena productiva del
+				campo argentino, nuestra misión es conectar a los agricultores con
+				empresas agroindustriales confiables y sustentables, ayudándoles a
+				crecer sus negocios y maximizar sus rendimientos.
+			</p>
+			<p>
+				Con Phenix Óleo, tendrá acceso a una amplia gama de productos y
+				servicios, desde materias primas de primera calidad a agroquímicos de
+				marcas líderes. Entendemos la importancia de tener las herramientas y
+				recursos adecuados para tener éxito en una industria híper competitiva,
+				es por eso que hemos creado una plataforma que le permite encontrar
+				fácilmente los productos y servicios que necesita.
+			</p>
+			<p>
+				Nuestro equipo de expertos está dedicado a asegurarse de que reciba el
+				mejor servicio y soporte posible. Ya sea que esté buscando la mejor
+				cotización de materia prima, información sobre opciones de
+				financiamiento, o ayuda para encontrar el proveedor o la marca adecuada
+				para su campo o empresa, estamos aquí para ayudar.
+			</p>
+		</section>
+		<img src="css/img/Imgen II.webp" alt="cosecha" class="imageFin" />
 
+		<a name="servicios"></a>
+		<section class="servicios">
+			<h2 class="nostitle">Servicios</h2>
+			<p>
+				Explore nuestro catálogo de productos para encontrar los productos y
+				servicios que cumplan con sus necesidades específicas. Puede filtrar su
+				búsqueda por tipo de producto, fabricante y precio, lo que le resulta
+				fácil encontrar las mejores opciones para su negocio.
+			</p>
+			<p>
+				También ofrecemos una serie de recursos para ayudarle a estar informado
+				y al día sobre las últimas noticias y tendencias de la industria. Desde
+				eventos y webinars de la industria hasta artículos e informativos y
+				videos, Phenix Óleo tiene todo lo que necesita para mantenerse a la
+				vanguardia en la agro industria.
+			</p>
+			<p>
+				Únase a la comunidad de Phenix Óleo hoy y conecte con las mejores
+				empresas agroindustriales del negocio. Estamos aquí para ayudarle a
+				crecer su negocio y alcanzar su máximo potencial.
+			</p>
+			<p>
+				Contáctenos hoy mismo para obtener más información sobre nuestros
+				productos y servicios, y cómo podemos ayudarlo a tener éxito en la
+				industria agrícola.
+			</p>
+		</section>
 
-      </div>
-      <!-- <div class="portadatitulo">STRENGTH & QUALITY</div> -->
-    </div>
+		<img src="css/img/Imgen III.png" alt="granos" class="imageFin" />
 
-  </section>
+		<a name="productos"></a>
+		<section class="productos">
+			<h2 class="nostitle">Productos</h2>
+			<div>
+				<h3 class="enVerde">Aceite Mitelado de Soja</h3>
 
-  <!-- <a name="productos"></a>
-  <section class="gridimg">
-    <div class="griddiv griddivitem1">
-      <h3>Modelo PRO 01</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ratione quia adipisci, magnam doloribus neque
-        dolor recusandae maxime quod harum.</p>
-    </div>
-    <div class="griddiv griddivitem2"></div>
-    <div class="griddiv griddivitem3"></div>
-    <div class="griddiv griddivitem4">
-      <h3>Modelo PRO 02</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ratione quia adipisci, magnam doloribus neque
-        dolor recusandae maxime quod harum.</p>
-    </div>
-    <div class="griddiv griddivitem5">
-      <h3>Modelo PRO 03</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ratione quia adipisci, magnam doloribus neque
-        dolor recusandae maxime quod harum.</p>
-    </div>
-    <div class="griddiv griddivitem6"></div>
-    <div class="griddiv griddivitem7"></div>
-    <div class="griddiv griddivitem8">
-      <h3>Modelo PRO 04</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ratione quia adipisci, magnam doloribus neque
-        dolor recusandae maxime quod harum.</p>
-    </div>
-    <div class="griddiv griddivitem9">
-      <h3>Modelo PRO 05</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ratione quia adipisci, magnam doloribus neque
-        dolor recusandae maxime quod harum.</p>
-    </div>
-    <div class="griddiv griddivitem10"></div>
+				<p>
+					El Aceite Metilado de Soja es un producto derivado del aceite de soja
+					que se utiliza principalmente como coadyuvante agroquímico, es decir,
+					para mejorar la efectividad de los productos fitosanitarios en la
+					agricultura.
+				</p>
+				<p>
+					<strong>Sustentabilidad:</strong> El uso del Aceite Metilado de Soja
+					como coadyuvante agroquímico es una práctica sostenible, ya que se
+					trata de un producto renovable y biodegradable que tiene un menor
+					impacto ambiental que los coadyuvantes agroquímicos convencionales.
+				</p>
+				<p>
+					<strong>Efectividad:</strong> El Aceite Metilado de Soja es un
+					coadyuvante agroquímico efectivo que mejora la capacidad de los
+					productos fitosanitarios para combatir las plagas y enfermedades de
+					los cultivos. Esto se traduce en un menor uso de productos químicos y
+					en una mayor eficiencia en la protección de los cultivos.
+				</p>
+				<p>
+					<strong>Seguridad:</strong> El Aceite Metilado de Soja es un producto
+					seguro y no tóxico que no presenta riesgos para la salud de las
+					personas ni para el medio ambiente. Además, su uso puede reducir el
+					riesgo de exposición a productos químicos tóxicos y peligrosos para la
+					salud.
+				</p>
+				<p>
+					<strong>Economía:</strong> El uso del Aceite Metilado de Soja como
+					coadyuvante agroquímico puede generar ahorros significativos en los
+					costos de producción de los cultivos, ya que se reduce la cantidad de
+					productos fitosanitarios necesarios y se mejora su eficacia.
+				</p>
+				<p>
+					En resumen, el aceite metilado como coadyuvante potencia la producción
+					agrícola y su rinde, además de reducir los impactos negativos sobre el
+					medio ambiente.
+				</p>
+			</div>
 
-  </section> -->
+			<img src="css/img/Imgen IV.png" alt="granos" class="imageFin" />
 
-  <a name="galeria"></a>
-  <section class="galeria">
-    <h2 class="galtitle">Strength & Quality</h2>
-    <div class="galgrid">
-      <div class="galgriddiv galitem1"></div>
-      <div class="galgriddiv galitem2"></div>
-      <div class="galgriddiv galitem3"></div>
-      <div class="galgriddiv galitem4"></div>
-      <div class="galgriddiv galitem5"></div>
-      <div class="galgriddiv galitem6"></div>
-      <!--       <div class="galgriddiv galitem7"></div>
-      <div class="galgriddiv galitem8"></div>
-      <div class="galgriddiv galitem9"></div>
-      <div class="galgriddiv galitem10"></div>
-      <div class="galgriddiv galitem11"></div>
-      <div class="galgriddiv galitem12"></div> -->
+			<div>
+				<h3 class="enVerde">Aceite Crudo de Soja</h3>
+				<h4>(Aceite Crudo de Soja Desgomado o Neutro)</h4>
 
-    </div>
+				<p>
+					La soja es una de las principales fuentes de aceite vegetal del mundo,
+					y su aceite crudo es una fuente económica de aceite vegetal para la
+					agroindustria que presenta los siguientes beneficios:
+				</p>
+				<p>
+					<strong>Versatilidad:</strong> El aceite crudo de soja es un
+					ingrediente versátil que se puede utilizar en la producción de una
+					amplia variedad de productos agroindustriales, incluyendo alimentos
+					para animales, fertilizantes y biocombustibles.
+				</p>
+				<p>
+					<strong>Mejora la nutrición animal:</strong> El aceite crudo de soja
+					se utiliza como ingrediente en alimentos para animales, ya que es una
+					fuente rica en ácidos grasos esenciales y proteínas, lo que mejora la
+					nutrición y la salud de los animales.
+				</p>
+				<p>
+					<strong>Mejora la fertilidad del suelo:</strong> Los restos de la
+					planta de soja se utilizan como fertilizante natural para mejorar la
+					fertilidad del suelo y promover el crecimiento de otros cultivos.
+				</p>
+				<p>
+					El aceite crudo de soja tiene una variedad de usos comerciales en
+					diferentes industrias. Algunos de los principales usos comerciales del
+					aceite crudo de soja son:
+				</p>
+			</div>
+		</section>
 
-  </section>
+		<img class="imageFin" src="css/img/Imgen V.png" alt="galpones" />
 
-  <a name="contact"></a>
+		<section>
+			<div>
+				<h3>Industrias</h3>
+				<p>
+					<strong>Industria de la biodiésel:</strong> El aceite crudo de soja se
+					utiliza como materia prima en la producción de biodiésel. La soja es
+					una de las fuentes más importantes de aceite vegetal para la
+					producción de biodiésel, debido a su bajo costo y alto contenido de
+					aceite.
+				</p>
+				<p>
+					<strong>Industria alimentaria:</strong> El aceite crudo de soja se
+					utiliza como ingrediente en una amplia gama de productos alimenticios,
+					como margarina, aderezos para ensaladas, mayonesa, panadería, snacks y
+					alimentos para animales. El aceite de soja también se utiliza como
+					ingrediente en alimentos para bebés y productos de nutrición
+					deportiva.
+				</p>
+				<p>
+					<strong>Industria cosmética:</strong> El aceite crudo de soja se
+					utiliza en productos de cuidado personal y belleza, como cremas
+					hidratantes, lociones corporales, bálsamos labiales y champús. El
+					aceite de soja es un emoliente natural y se utiliza para hidratar y
+					suavizar la piel.
+				</p>
+				<p>
+					<strong>Industria farmacéutica:</strong> El aceite crudo de soja se
+					utiliza como ingrediente en medicamentos y suplementos dietéticos. La
+					soja contiene isoflavonas, que tienen propiedades antioxidantes y
+					antiinflamatorias.
+				</p>
+				<p>
+					<strong>Industria de la pintura y los revestimientos:</strong> El
+					aceite crudo de soja se utiliza como ingrediente en la producción de
+					pinturas y recubrimientos. El aceite de soja se utiliza como un
+					disolvente natural y es una alternativa ecológica a los disolventes
+					químicos tradicionales.
+				</p>
+			</div>
+		</section>
+		<img class="imageFin" src="css/img/Imagen VI.jpg" alt="cultivos" />
 
-  <section class="contacts">
+		<a name="contact"></a>
 
-    <div class="contact-body">
-      <h2 class="contact-title">Contactanos</h2>
-      <div class="contact-grid">
-        <div class="contact">
-          <h1>Somos Procnost</h1>
-          <div class="contacttext"> Una empresa dedicada al desarrollo e importación de herramientas
-            para usuarios
-            profesionales y hobbistas. Ofreciendo productos innovadores y de calidad, buscamos acompañar a nuestros
-            clientes en la construcción de sus proyectos. </div>
-          <div class="contact-company">Contact</div>
-          <div class="contact-description">
+		<section class="contacts">
+			<div class="contact-body">
+				<h2 class="contact-title">Contactanos</h2>
+				<div class="contact-grid">
+					<div class="contact">
+						<!-- <div class="experience-date">Contact</div> -->
 
+						<div class="contact-description">
+							<a
+								href="https://www.google.com.br/maps/place/Carlos+Pellegrini+1163,+C1009ABW+FXD,+Buenos+Aires/@-34.5940481,-58.3839695,17z/data=!3m1!4b1!4m6!3m5!1s0x95bccb9f81429d1b:0x5dce12ec1139f582!8m2!3d-34.5940525!4d-58.3817808!16s%2Fg%2F11fwgst64h"
+							>
+								<img height="20px" src="img/maps.png" alt="maps" />
+								<span class="contacttextDireccion">
+									Dirección: Carlos Pellegrini 1163 - piso 10 A - CABA
+								</span>
+							</a>
+							<br />
 
+							<a href="mailto:info@phenixoleo.com">
+								<img src="img/mail.svg" alt="mail" />
+								<div class="contacttext">info@phenixoleo.com</div>
+							</a>
+							<br />
 
-            <a href="mailto:herramientas.procnost@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                <path
-                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-              </svg>
-              <div class="contacttext"> herramientas.procnost@gmail.com </div>
-            </a>
-            <br>
+							<div class="contact-company">Dirección General</div>
+							<div class="contacttext">Benjamin Cardoni</div>
 
+							<a href="mailto:Benjamin.cardoni@phenixoleo.com">
+								<img src="img/mail.svg" alt="mail" />
+								<div class="contacttext">Benjamin.cardoni@phenixoleo.com</div>
+							</a>
+							<a>
+								<img src="img/telefono.png" alt="telefono" height="18px" />
+								<div class="contacttext">Telefono +5491165055009</div>
+							</a>
+							<br />
+							<div class="contact-company">Administración</div>
+							<div class="contacttext">Nancy Marin</div>
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+							<a href="mailto:administración@phenixoleo.com">
+								<img src="img/mail.svg" alt="mail" />
+								<div class="contacttext">administración@phenixoleo.com</div>
+							</a>
+							<a>
+								<img src="img/telefono.png" alt="telefono" height="18px" />
+								<div class="contacttext">Telefono 4314-4466</div>
+							</a>
+							<br />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-  <footer id="footer">
-    <div class="container">
-      <p>&copy; PROCNOST</p>
-    </div>
-  </footer>
+		<!-- <img class="imageFin" src="css/img/Imagen VII.jpg" alt="fumigadora" /> -->
 
-</body>
-
+		<footer id="footer">
+			<div class="container">
+				<p>&copy; Phenix Oleo</p>
+			</div>
+		</footer>
+	</body>
 </html>

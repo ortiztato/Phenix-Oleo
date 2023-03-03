@@ -1,0 +1,23 @@
+.nosotros {
+	background-color: var(--basewhite);
+}
+
+.nostitle {
+	font-size: 2em;
+	font-weight: bold;
+	color: #000;
+	margin: 4rem 0 1rem 0;
+	padding: 0;
+	text-align: center;
+}
+
+.imageFin {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.productos {
+	background-color: var(--basewhite);
+}
