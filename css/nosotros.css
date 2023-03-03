@@ -21,3 +21,20 @@
 .productos {
 	background-color: var(--basewhite);
 }
+
+@media (min-width: 850px) {
+	.nostitle {
+		margin: 8rem 0 2rem;
+	}
+	.textContainer {
+		max-width: 60%;
+		margin: auto;
+	}
+}
+
+@media (min-width: 1550px) {
+	.textContainer {
+		max-width: 40%;
+		margin: auto;
+	}
+}

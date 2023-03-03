@@ -16,7 +16,7 @@
 	justify-content: center;
 }
 
-@media (min-width: 950px) {
+@media (min-width: 850px) {
 	#footer {
 		height: 18vh;
 	}

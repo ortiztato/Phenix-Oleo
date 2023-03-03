@@ -10,16 +10,16 @@
 	background-position: 35% 0%;
 }
 
-@media (min-width: 950px) {
+@media (min-width: 850px) {
 	.imgfondo1 {
 		background-image: linear-gradient(
 				0deg,
-				rgba(0, 0, 0, 0.5),
-				rgba(0, 0, 0, 0.5)
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.6)
 			),
 			url("img/Imagen\ I.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: 35% 100%;
+		background-position: 45% 0%;
 	}
 }

@@ -73,7 +73,17 @@
 	margin-bottom: 0px;
 }
 
-@media (min-width: 950px) {
+@media (min-width: 850px) {
+	.portadatitulo {
+		font-size: 4rem;
+	}
+
+	.portadatituloSubtitulo {
+		font-size: 1.8rem;
+		font-weight: bold;
+		letter-spacing: 2px;
+	}
+
 	.imgcontainer {
 		display: grid;
 		text-align: center;
@@ -89,4 +99,7 @@
 		width: 30vw;
 		/* height: 150px; */
 	}
+}
+
+@media (min-width: 1550px) {
 }

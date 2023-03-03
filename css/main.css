@@ -96,8 +96,5 @@ h4 {
 	}
 }
 
-@media (min-width: 1450px) {
-	section {
-		padding: 0px 300px 300px 300px;
-	}
+@media (min-width: 1550px) {
 }
