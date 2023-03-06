@@ -18,6 +18,16 @@
 	object-position: center;
 }
 
+.imageNosotros {
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+		url("img/ImagenII.jpg");
+	width: 100vw;
+	height: 30vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+}
+
 .productos {
 	background-color: var(--basewhite);
 }
@@ -29,6 +39,16 @@
 	.textContainer {
 		max-width: 60%;
 		margin: auto;
+	}
+
+	.imageNosotros {
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+			url("img/ImagenII.jpg");
+		width: 100vw;
+		height: 90vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 35% 0%;
 	}
 }
 
