@@ -13,8 +13,8 @@ html {
 }
 
 :root {
-	--basewhite: #fff;
-	--basecolor: rgb(240, 240, 240);
+	--basewhite: rgb(245, 245, 245);
+	--basecolor: rgb(230, 230, 230);
 	--complementcolor: #ffe500;
 	--whitetext: rgb(240, 240, 240);
 	--blacktext: rgb(5, 5, 5);
