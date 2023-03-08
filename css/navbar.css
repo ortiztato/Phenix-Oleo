@@ -11,7 +11,7 @@
 
 .topnav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: end;
 	padding: 10px;
 	max-width: 980px;
 	margin: 0 auto;
@@ -19,8 +19,17 @@
 
 /* Logo */
 
-.logo {
+.logoDesktop {
 	display: flex;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 500;
+	color: #f2f5f7;
+	margin-left: 2rem;
+}
+
+.logoMobile {
+	display: none;
 	align-items: center;
 	font-size: 20px;
 	font-weight: 500;
@@ -89,6 +98,26 @@
 }
 
 @media (max-width: 850px) {
+	.topnav {
+		justify-content: space-between;
+	}
+
+	.logoDesktop {
+		display: none;
+		align-items: center;
+		font-size: 20px;
+		font-weight: 500;
+		color: #f2f5f7;
+	}
+
+	.logoMobile {
+		display: flex;
+		align-items: center;
+		font-size: 20px;
+		font-weight: 500;
+		color: #f2f5f7;
+	}
+
 	#logomenubtn {
 		display: block;
 	}
